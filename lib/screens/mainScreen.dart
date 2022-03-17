@@ -8,6 +8,14 @@ class MainScreen extends StatefulWidget {
 class _MainScreen extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Main"),
+      ),
+      body: Container(
+          child: Center(
+        child: Text("Main Screen"),
+      )),
+    );
   }
 }
